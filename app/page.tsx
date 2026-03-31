@@ -1,13 +1,17 @@
-import Image from "next/image";
-import Lunch from "./lunch/page";
 import Link from "next/link"
+import Header from "./header";
+import Footer from "./footer";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="buttonContainer">
-      <Link href="/lunch"><button id="lunchButton">Lunch</button></Link>
-      <Link href="/dinner"><button id="dinnerButton">Dinner</button></Link>
-      <Link href="/drinks"><button id="drinksButton">Drinks</button></Link>
-    </div>
+    <>
+      <Header />
+      <main>
+        <h2>Welcome to our tavern!</h2>
+      </main>
+      <Footer />
+    </>
   );
 }
+
+export default Home;
