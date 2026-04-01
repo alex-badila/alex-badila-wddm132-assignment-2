@@ -7,11 +7,25 @@ function Dinner(props: any) {
   return (
     <>
       <Header />
+      <h2>Appetizers</h2>
       <div className="cardContainer">
-          <Card menuItem="Dinner menu item 1" description="Dinner description 1" price="Dinner price 1"/>
-          <Card menuItem="Dinner menu item 2" description="Dinner description 2" price="Dinner price 2"/>
-          <Card menuItem="Dinner menu item 3" description="Dinner description 3" price="Dinner price 3"/>
-          <Card menuItem="Dinner menu item 4" description="Dinner description 4" price="Dinner price 4"/>
+          <Card menuItem="Grubs Platter" description="Delicious Arkhani insect grubs, served in a a leaf with peanut sauce." price="20 gold pieces"/>
+          <Card menuItem="Wildebeest Sliders" description="3 sliders made from the finest cut of Zherkani wildebeest." price="30 gold pieces"/>
+          <Card menuItem="Shining Butterfly Soup" description="Soup made from the mystical shining butterly. It glows!" price="25 gold pieces"/>
+          <Card menuItem="Glarn Tentacle Soup" description="Soup of the tentacles of the famous Glarn beast. Contains potatoes and sour cream." price="30 gold pieces"/>
+      </div>
+      <h2>Mains</h2>
+      <div className="cardContainer">
+          <Card menuItem="Roasted Glarn Tentacle" description="Served with gravy, mashed potatoes, and assorted vegetables." price="50 gold pieces"/>
+          <Card menuItem="Franglesangle Nachos" description="Served with famous franglesangle sauce that is to die for!" price="35 gold pieces"/>
+          <Card menuItem="Wildebeest Steak" description="Prime cut 10 oz wildebeest steak served with mashed potatoes and assorted vegetables." price="25 gold pieces"/>
+          <Card menuItem="Magical Lightbug Pasta" description="Magical lightbug served with iteratto pasta. You can still see it shine even after death!" price="40 gold pieces"/>
+      </div>
+      <h2>Dessert</h2>
+      <div className="cardContainer">
+          <Card menuItem="Derobeast Chocolate Mousse Cake" description="Delicious chocolate mousse cake made from Derobeast milk, served with sergoberries." price="20 gold pieces"/>
+          <Card menuItem="Wildebeest Cheese Cake" description="Cheese cake made from wildebeest milk. Comes in vanilla, chocolate, and strawberry." price="20 gold pieces"/>
+          <Card menuItem="Arkhani Sundae" description="Ice cream sundae made with vanilla ice cream, chocolate sauce, and rindernuts." price="20 gold pieces"/>
       </div>
       <Footer />
     </>

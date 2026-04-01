@@ -25,30 +25,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#lunchButton {
-  background-color: red;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-}
-
-#dinnerButton {
-  background-color: blue;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-}
-
-#drinksButton {
-  background-color: green;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-}
-
-.buttonContainer {
+.navContainer {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  background-color: darkgrey;
 }
 
 .cardContainer {
@@ -60,4 +40,32 @@ body {
   padding: 20px;
   margin: 10px;
   border-radius: 3px;
+}
+
+.navHome {
+  margin-right: auto;
+}
+
+.navLeft, .navRight {
+  flex: 1; 
+}
+
+.navCenter {
+  display: flex;
+  gap: 20px;
+}
+
+.navRight {
+  text-align: right; 
+}
+
+.submitButton {
+  background-color: darkgrey;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.footer {
+  background-color: darkgrey;
+  text-align: center;
 }
