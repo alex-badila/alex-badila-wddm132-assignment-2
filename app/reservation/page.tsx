@@ -21,7 +21,7 @@ const Reservation = () => {
     const {name, numPeople, reservationDate, reservationTime, message} = formData;
 
     // Prepare a confirmation message
-    const confirmationMessage = `Reservation confirmed! You are booked under ${name} for ${numPeople} people on ${reservationDate} at ${reservationTime}. You have also said ${message}. See you then!`;
+    const confirmationMessage = `Reservation confirmed! You are booked under ${name} for ${numPeople} people on ${reservationDate} at ${reservationTime}. You have also said: ${message} See you then!`;
 
     // Display the confirmation message with an alert
     alert(confirmationMessage);
