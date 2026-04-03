@@ -12,16 +12,43 @@ const Reservation = () => {
     message: ""
   });
 
+  // Updates the form data based on what the user types in
   const handleChange = (e: any) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }
 
+  // On submit, takes the form data, validates in, and shows the appropriate alert
   const handleSubmitClick = (e: any) => {
     // Break up the information sent in by the form into its individual parts
     const {name, numPeople, reservationDate, reservationTime, message} = formData;
 
+    // Perform validation on the form input for all the required fields
+    if(name === "") {
+      e.preventDefault();
+      alert("Name is empty");
+      return;
+    }
+
+    if(numPeople === "") {
+      e.preventDefault();
+      alert("Number of people is empty");
+      return;
+    }
+
+    if(reservationDate === "") {
+      e.preventDefault();
+      alert("Date is empty");
+      return;
+    }
+
+    if(reservationTime === "") {
+      e.preventDefault();
+      alert("Time is empty");
+      return;
+    }
+
     // Prepare a confirmation message
-    const confirmationMessage = `Reservation confirmed! You are booked under ${name} for ${numPeople} people on ${reservationDate} at ${reservationTime}. You have also said: ${message} See you then!`;
+    const confirmationMessage = `Reservation confirmed! You are booked under ${name} for ${numPeople} people on ${reservationDate} at ${reservationTime}. You have also said: "${message}" See you then!`;
 
     // Display the confirmation message with an alert
     alert(confirmationMessage);
