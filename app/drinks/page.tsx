@@ -8,9 +8,9 @@ const Drinks = (props: any) => {
     <>
       <Header />
       <main>
+        <h1 className="center">Drinks</h1>
         <section>
-          <h2>Drinks</h2>
-          <h3>Cocktails</h3>
+          <h2>Cocktails</h2>
           <div className="cardContainer">
               <Card menuItem="Wizard's Explosion" description="Rum, orange juice and a secret ingredient to add that extra kick!" price="20 gold pieces"/>
               <Card menuItem="Witch's Delight" description="Tequila, cranberry juice, and lemon." price="15 gold pieces"/>
@@ -19,7 +19,7 @@ const Drinks = (props: any) => {
           </div>
         </section>
         <section>
-          <h3>Beer</h3>
+          <h2>Beer</h2>
           <div className="cardContainer">
               <Card menuItem="Butterbeer" description="Made with butter from the Arkhazi mountains." price="20 gold pieces"/>
               <Card menuItem="Viking Ale" description="Frosty mug of ale from the North for those fearless fighters among us!" price="30 gold pieces"/>
@@ -27,7 +27,7 @@ const Drinks = (props: any) => {
           </div>
         </section>
         <section>
-          <h3>Wine</h3>
+          <h2>Wine</h2>
           <div className="cardContainer">
               <Card menuItem="Dragon's Blood" description="A bitter red wine with an extra kick." price="30 gold pieces"/>
               <Card menuItem="Snow White" description="A chilled white wine with a perfumed aftertaste." price="25 gold pieces"/>

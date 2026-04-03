@@ -66,30 +66,32 @@ const Reservation = () => {
   return (
     <>
       <Header />
-      <h2>Book a reservation today!</h2>
-      <form className="reservationForm">
-        <div className="nameForm">
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
-        </div>
-        <div className="numPeopleForm">
-          <label htmlFor="numPeople">Number of People (max 10):</label> 
-          <input type="number" id="numPeople" name="numPeople" min="1" max="10" value={formData.numPeople} onChange={handleChange} />
-        </div>
-        <div className="reservationDateForm">
-          <label htmlFor="reservationDate">Date:</label>
-          <input type="date" id="reservationDate" name="reservationDate" value={formData.reservationDate} onChange={handleChange} />
-        </div>
-        <div className="reservationTimeForm">
-          <label htmlFor="reservationTime">Time:</label>
-          <input type="time" id="reservationTime" name="reservationTime" value={formData.reservationTime} onChange={handleChange} />
-        </div>
-        <div className="messageForm">
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" id="message" value={formData.message} onChange={handleChange} />
-        </div>
-        <input type="submit" className="submitButton" id="submitButton" value="Submit" onClick={handleSubmitClick} />   
-      </form>
+      <main>
+        <h1>Book a reservation today!</h1>
+        <form className="reservationForm">
+          <div className="nameForm">
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
+          </div>
+          <div className="numPeopleForm">
+            <label htmlFor="numPeople">Number of People (max 10):</label> 
+            <input type="number" id="numPeople" name="numPeople" min="1" max="10" value={formData.numPeople} onChange={handleChange} />
+          </div>
+          <div className="reservationDateForm">
+            <label htmlFor="reservationDate">Date:</label>
+            <input type="date" id="reservationDate" name="reservationDate" value={formData.reservationDate} onChange={handleChange} />
+          </div>
+          <div className="reservationTimeForm">
+            <label htmlFor="reservationTime">Time:</label>
+            <input type="time" id="reservationTime" name="reservationTime" value={formData.reservationTime} onChange={handleChange} />
+          </div>
+          <div className="messageForm">
+            <label htmlFor="message">Message:</label>
+            <textarea name="message" id="message" value={formData.message} onChange={handleChange} />
+          </div>
+          <input type="submit" className="submitButton" id="submitButton" value="Submit" onClick={handleSubmitClick} />   
+        </form>
+      </main>
       <Footer />
     </>
   );

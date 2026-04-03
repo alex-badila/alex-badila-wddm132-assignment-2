@@ -70,3 +70,23 @@ body {
   text-align: center;
 }
 
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.linkContainer a {
+  color: purple;
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+  padding: 10px;
+  margin: 10px;
+}

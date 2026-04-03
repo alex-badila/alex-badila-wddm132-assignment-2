@@ -8,9 +8,9 @@ const Dinner = (props: any) => {
     <>
       <Header />
       <main>
+        <h1 className="center">Dinner</h1>
         <section>
-          <h2>Dinner</h2>
-          <h3>Appetizers</h3>
+          <h2>Appetizers</h2>
           <div className="cardContainer">
               <Card menuItem="Grubs Platter" description="Delicious Arkhani insect grubs, served in a leaf with peanut sauce." price="20 gold pieces"/>
               <Card menuItem="Wildebeest Sliders" description="3 sliders made from the finest cut of Zherkani wildebeest." price="30 gold pieces"/>
@@ -19,7 +19,7 @@ const Dinner = (props: any) => {
           </div>
         </section>
         <section>
-          <h3>Mains</h3>
+          <h2>Mains</h2>
           <div className="cardContainer">
               <Card menuItem="Roasted Glarn Tentacle" description="Served with gravy, mashed potatoes, and assorted vegetables." price="50 gold pieces"/>
               <Card menuItem="Franglesangle Nachos" description="Served with famous franglesangle sauce that is to die for!" price="35 gold pieces"/>
@@ -28,7 +28,7 @@ const Dinner = (props: any) => {
           </div>
         </section>
         <section>
-          <h3>Dessert</h3>
+          <h2>Dessert</h2>
           <div className="cardContainer">
               <Card menuItem="Derobeast Chocolate Mousse Cake" description="Delicious chocolate mousse cake made from derobeast milk, served with sergoberries." price="20 gold pieces"/>
               <Card menuItem="Wildebeest Cheese Cake" description="Cheese cake made from wildebeest milk. Comes in vanilla, chocolate, and strawberry." price="20 gold pieces"/>
