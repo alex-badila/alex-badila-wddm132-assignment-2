@@ -76,6 +76,7 @@ body {
   gap: 3px;
 }
 
+/* The Link tag renders as an a tag in the site's HTML, which is why this works */
 .linkContainer a {
   color: purple;
   text-decoration: underline;

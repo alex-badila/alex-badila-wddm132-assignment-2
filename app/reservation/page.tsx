@@ -17,7 +17,7 @@ const Reservation = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }
 
-  // On submit, takes the form data, validates in, and shows the appropriate alert
+  // On submit, takes the form data, validates it, and shows the appropriate alert
   const handleSubmitClick = (e: any) => {
     // Break up the information sent in by the form into its individual parts
     const {name, numPeople, reservationDate, reservationTime, message} = formData;

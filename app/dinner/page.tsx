@@ -2,7 +2,7 @@ import Card from "../card";
 import Header from "../header";
 import Footer from "../footer";
 
-const Dinner = (props: any) => {
+const Dinner = () => {
 
   return (
     <>
