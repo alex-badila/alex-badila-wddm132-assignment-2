@@ -1,11 +1,11 @@
 function Card(props: any) {
 
   return (
-    <div className="card">
-      <h2>{props.menuItem}</h2>
+    <article className="card">
+      <h3>{props.menuItem}</h3>
       <p>{props.description}</p>
       <p>{props.price}</p>
-    </div>
+    </article>
   )
 }
 

@@ -23,7 +23,7 @@ const Dinner = () => {
           <div className="cardContainer">
               <Card menuItem="Roasted Glarn Tentacle" description="Served with gravy, mashed potatoes, and assorted vegetables." price="50 gold pieces"/>
               <Card menuItem="Franglesangle Nachos" description="Served with famous franglesangle sauce that is to die for!" price="35 gold pieces"/>
-              <Card menuItem="Wildebeest Steak" description="Prime cut 10 oz wildebeest steak served with mashed potatoes and assorted vegetables." price="50 gold pieces"/>
+              <Card menuItem="Wildebeest Steak" description="Prime cut 10 oz Zherkani wildebeest steak served with mashed potatoes and assorted vegetables." price="50 gold pieces"/>
               <Card menuItem="Magical Lightbug Pasta" description="Magical lightbug served with iteratto pasta. You can still see it shine even after death!" price="40 gold pieces"/>
           </div>
         </section>
@@ -31,7 +31,7 @@ const Dinner = () => {
           <h2>Dessert</h2>
           <div className="cardContainer">
               <Card menuItem="Derobeast Chocolate Mousse Cake" description="Delicious chocolate mousse cake made from derobeast milk, served with sergoberries." price="20 gold pieces"/>
-              <Card menuItem="Wildebeest Cheese Cake" description="Cheese cake made from wildebeest milk. Comes in vanilla, chocolate, and strawberry." price="20 gold pieces"/>
+              <Card menuItem="Wildebeest Cheese Cake" description="Cheese cake made from Zherkani wildebeest milk. Comes in vanilla, chocolate, and strawberry." price="20 gold pieces"/>
               <Card menuItem="Arkhani Sundae" description="Ice cream sundae made with vanilla ice cream, chocolate sauce, and rindernuts." price="20 gold pieces"/>
           </div>
         </section>
